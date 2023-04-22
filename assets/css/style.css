@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+  }
+  
+  /* Change font size of headings */
+  h1 {
+    font-size: 200%;
+    font-family: sans-serif;
+}
+nav {
+    display: flex;
+    }
+#top {
+ display: inline-flex;
+  background-color: #a9aa95;
+  padding: 10px;
+  font-family: sans-serif;
+  text-decoration: none;
+  
+}
