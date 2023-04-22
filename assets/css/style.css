@@ -18,14 +18,62 @@ body {
     font-size: 200%;
     font-family: sans-serif;
 }
-nav {
+nav ul {
     display: flex;
-    }
-#top {
+    justify-content: space-between;
+    min-width: 300px;
+  }
+a {
  display: inline-flex;
+ border: 2px solid #fff;
   background-color: #a9aa95;
+  color: #13293d;
+  font-weight: bold;
   padding: 10px;
   font-family: sans-serif;
   text-decoration: none;
-  
 }
+nav a:hover {
+    color: #fff;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+  }
+  
+  section {
+    display: flex;
+    flex: 1 1 0;
+    padding: 5%;
+    margin: 2%;
+    border: 10px solid #7fc2c8;
+  }
+  
+  article {
+    border-bottom: 1px solid #d8a47f;
+  }
+  
+  article p {
+    margin: 2% 0;
+    font-size: 110%;
+  }
+  
+  article ul {
+    margin-left: 5%;
+    font-size: 110%;
+    list-style: circle;
+  }
+  resources {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex: 1 1 0;
+    padding: 5%;
+    margin: 2%;
+    border: 10px solid #7fc2c8;
+  }
