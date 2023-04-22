@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,17 +7,27 @@ body {
   
   header {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
     background-color: #13293d;
     color: #fff;
+    position: fixed;
+  border-bottom: 10px solid #a9aa95;
   }
   
   /* Change font size of headings */
   h1 {
     font-size: 200%;
-    font-family: sans-serif;
+    display: inline-flex;
+ border: 2px solid #fff;
+  background-color: #a9aa95;
+  color: #13293d;
+  font-weight: bold;
+  padding: 10px;
+  font-family: sans-serif;
+  text-decoration: none;
 }
 nav ul {
     display: flex;
@@ -34,6 +45,7 @@ a {
   text-decoration: none;
 }
 nav a:hover {
+    background-color: #7fc2c8;
     color: #fff;
   }
 
@@ -44,6 +56,8 @@ nav a:hover {
     flex: 1 1 0;
     max-width: 1200px;
     margin: 2% auto;
+    margin-top: 7%;
+  
   }
   
   section {
@@ -51,7 +65,7 @@ nav a:hover {
     flex: 1 1 0;
     padding: 5%;
     margin: 2%;
-    border: 10px solid #7fc2c8;
+    border: 10px solid #a9aa95;
   }
   
   article {
