@@ -17,6 +17,15 @@ body {
   border-bottom: 10px solid #a9aa95;
   }
   
+  .biography {
+    text-decoration: none;
+  }
+  .web-applications {
+    text-decoration: none;
+  }
+  .contact {
+    text-decoration: none;
+  }
   /* Change font size of headings */
   h1 {
     font-size: 200%;
@@ -41,6 +50,7 @@ a {
   color: #13293d;
   font-weight: bold;
   padding: 10px;
+  margin: 3px;
   font-family: sans-serif;
   text-decoration: none;
 }
@@ -60,6 +70,15 @@ nav a:hover {
   
   }
   
+  #biography {
+    text-decoration: none;
+  }
+  #web-applications {
+    text-decoration: none;
+  }
+  #contact {
+    text-decoration: none;
+  }
   section {
     display: flex;
     flex: 1 1 0;
@@ -82,12 +101,10 @@ nav a:hover {
     font-size: 110%;
     list-style: circle;
   }
-  resources {
-    display: flex;
-    flex-direction: column;
-    display: flex;
-    flex: 1 1 0;
-    padding: 5%;
-    margin: 2%;
-    border: 10px solid #7fc2c8;
+  app-box {
+    display:flex;
+    flex-direction: row;
+    flex: wrap;
+    Justify-content: space-between;
+    align-content: stretch;
   }
