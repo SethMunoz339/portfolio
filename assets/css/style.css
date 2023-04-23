@@ -128,17 +128,12 @@ nav a:hover {
   font-family: sans-serif;
   text-decoration: none;
   border-radius: 20px;
+  text-align: center;
   }
 
   .card a:hover {
     background-color: #7fc2c8;
     color: #fff;
-  }
-
-  #cardtitle {
-    text-decoration: none;
-    text-align: center;
-    flex-basis: auto;
   }
 
   img {
