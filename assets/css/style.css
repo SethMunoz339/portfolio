@@ -13,19 +13,24 @@ body {
     padding: 1%;
     background-color: #13293d;
     color: #fff;
-    position: fixed;
+    position: absolute;
   border-bottom: 10px solid #a9aa95;
   }
+
+  footer {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+  border-top: 10px solid #a9aa95;
+  }
   
-  .biography {
-    text-decoration: none;
-  }
-  .web-applications {
-    text-decoration: none;
-  }
-  .contact {
-    text-decoration: none;
-  }
   /* Change font size of headings */
   h1 {
     font-size: 200%;
@@ -37,6 +42,7 @@ body {
   padding: 10px;
   font-family: sans-serif;
   text-decoration: none;
+  border-radius: 20px;
 }
 nav ul {
     display: flex;
@@ -53,6 +59,7 @@ a {
   margin: 3px;
   font-family: sans-serif;
   text-decoration: none;
+  border-radius: 20px;
 }
 nav a:hover {
     background-color: #7fc2c8;
@@ -66,25 +73,30 @@ nav a:hover {
     flex: 1 1 0;
     max-width: 1200px;
     margin: 2% auto;
-    margin-top: 7%;
-  
+    margin-top: 13%;
   }
   
   #biography {
-    text-decoration: none;
+    text-decoration: underline;
   }
+
   #web-applications {
-    text-decoration: none;
+    text-decoration: underline;
+    margin-right: 20px;
   }
+
   #contact {
-    text-decoration: none;
+    text-decoration: underline;
   }
+
   section {
     display: flex;
     flex: 1 1 0;
     padding: 5%;
     margin: 2%;
     border: 10px solid #a9aa95;
+    background-color: #7fc2c8;
+    border-radius: 20px;
   }
   
   article {
@@ -96,17 +108,13 @@ nav a:hover {
     font-size: 110%;
   }
   
-  article ul {
-    margin-left: 5%;
-    font-size: 110%;
-    list-style: circle;
-  }
   app-box {
     display:flex;
     flex-direction: row;
     flex: wrap;
     Justify-content: space-between;
     align-content: stretch;
+    border-radius: 20px;
   }
 
   .card {
@@ -119,19 +127,32 @@ nav a:hover {
   margin: 3px;
   font-family: sans-serif;
   text-decoration: none;
+  border-radius: 20px;
   }
+
   .card a:hover {
     background-color: #7fc2c8;
     color: #fff;
   }
+
   #cardtitle {
     text-decoration: none;
     text-align: center;
     flex-basis: auto;
-    
   }
+
   img {
     margin: 5px;
-    width: 200px;
-  height: 200px;
+    width: 300px;
+  height: 300px;
+  border-radius: 20px;
   }
+
+  #me {
+    border: 2px solid #fff;
+    margin-left: 145px;
+    margin-top: 15px;
+    width: 100px;
+  height: 100px;
+  }
+  
