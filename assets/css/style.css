@@ -18,19 +18,15 @@ body {
   }
 
   footer {
-    display: flex;
     width: 100%;
-    position: relative;
-    margin-top: 0;
-    bottom: 0;
-    justify-content: space-between;
-    align-items: center;
     padding: 1%;
     background-color: #13293d;
     color: #fff;
   border-top: 10px solid #a9aa95;
+  text-align: center;
   }
   
+ 
   /* Change font size of headings */
   h1 {
     font-size: 200%;
