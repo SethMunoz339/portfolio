@@ -108,3 +108,30 @@ nav a:hover {
     Justify-content: space-between;
     align-content: stretch;
   }
+
+  .card {
+    display: column;
+    border: 2px solid #fff;
+  background-color: #a9aa95;
+  color: #13293d;
+  font-weight: bold;
+  padding: 10px;
+  margin: 3px;
+  font-family: sans-serif;
+  text-decoration: none;
+  }
+  .card a:hover {
+    background-color: #7fc2c8;
+    color: #fff;
+  }
+  #cardtitle {
+    text-decoration: none;
+    text-align: center;
+    flex-basis: auto;
+    
+  }
+  img {
+    margin: 5px;
+    width: 200px;
+  height: 200px;
+  }
