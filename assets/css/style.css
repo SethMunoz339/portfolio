@@ -13,7 +13,7 @@ body {
     padding: 1%;
     background-color: #13293d;
     color: #fff;
-    position: absolute;
+    position: fixed;
   border-bottom: 10px solid #a9aa95;
   }
 
@@ -176,9 +176,9 @@ nav a:hover {
   border-radius: 20px;
   }
   #me {
+    display: flex;
+    
     border: 2px solid #fff;
-    margin-left: 145px;
-    margin-top: 15px;
     width: 100px;
   height: 100px;
   }
@@ -198,9 +198,38 @@ nav a:hover {
     Justify-content: space-evenly;
     border-radius: 20px;
   }
-  contact-box {
-    display:flex;
-    flex-direction: row;
-    Justify-content: space-evenly;
-    border-radius: 20px;
+
+  
+  @media screen and (max-width: 992px) {
+    header {
+      background-color: #4a064d;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    footer {
+      background-color: #4a064d;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    a {
+      background-color: #bb8588;
+    }
+    @media screen and (max-width: 768px) {
+      header {
+        justify-content: space-evenly;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .info {
+      display:flex;
+      flex: wrap;
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    section {
+      background-color: #b275eb;
+    }
+    
   }
