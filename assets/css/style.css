@@ -183,14 +183,16 @@ nav a:hover {
   height: 100px;
   }
   .info {
-    display: inline;
+
+   align-items: center;
     text-align: center;
   }
   a:hover {background-color: #7fc2c8;
     color: #fff; }
+ 
   #contactimg {
     width: 100px;
-  height: 100px;
+    height: 100px;
   }
   .contact-box {
     display:flex;
