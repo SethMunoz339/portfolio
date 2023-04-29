@@ -12,6 +12,10 @@ N/A
 
 In the webpage you will find my biography, links to the deployments of websites i have created, contact information, links to my github page and twitter feed.
 
+## Screenshot
+
+[screenshot of website](https://github.com/SethMunoz339/portfolio/blob/assets/Screenshot-portfolio.png?raw=true)
+
 ## Credits
 
 N/A
