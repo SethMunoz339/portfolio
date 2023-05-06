@@ -14,7 +14,7 @@ In the webpage you will find my biography, links to the deployments of websites 
 
 ## Screenshot
 
-[screenshot of website](https://github.com/SethMunoz339/portfolio/blob/main/Screenshot-portfolio.png?raw=true)
+[Screenshot of Website](https://github.com/SethMunoz339/portfolio/blob/main/Screenshot-portfolio.png?raw=true)
 
 ## URL
 
